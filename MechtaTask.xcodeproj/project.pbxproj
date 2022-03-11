@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26EB2220F8BC1E062C0CAC36 /* Pods_MechtaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88FFACDB89904B62FAABE7C /* Pods_MechtaTask.framework */; };
+		A575A9D527DAAC4600AA4073 /* Atomics in Frameworks */ = {isa = PBXBuildFile; productRef = A575A9D427DAAC4600AA4073 /* Atomics */; };
+		A5D4F68427D9C0BE00BB4B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4F68327D9C0BE00BB4B1F /* AppDelegate.swift */; };
+		A5D4F68627D9C0BE00BB4B1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4F68527D9C0BE00BB4B1F /* SceneDelegate.swift */; };
+		A5D4F68827D9C0BE00BB4B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4F68727D9C0BE00BB4B1F /* ViewController.swift */; };
+		A5D4F68B27D9C0BE00BB4B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D4F68927D9C0BE00BB4B1F /* Main.storyboard */; };
+		A5D4F68D27D9C0BE00BB4B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D4F68C27D9C0BE00BB4B1F /* Assets.xcassets */; };
+		A5D4F69027D9C0BE00BB4B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D4F68E27D9C0BE00BB4B1F /* LaunchScreen.storyboard */; };
+		A5D4F69827D9C20000BB4B1F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4F69727D9C1FF00BB4B1F /* Model.swift */; };
+		A5D4F69A27D9C21400BB4B1F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4F69927D9C21400BB4B1F /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33BF4A7511AB54CD7B086932 /* Pods-MechtaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechtaTask.debug.xcconfig"; path = "Target Support Files/Pods-MechtaTask/Pods-MechtaTask.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D4F68027D9C0BE00BB4B1F /* MechtaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechtaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D4F68327D9C0BE00BB4B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D4F68527D9C0BE00BB4B1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5D4F68727D9C0BE00BB4B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5D4F68A27D9C0BE00BB4B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D4F68C27D9C0BE00BB4B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D4F68F27D9C0BE00BB4B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5D4F69127D9C0BE00BB4B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D4F69727D9C1FF00BB4B1F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A5D4F69927D9C21400BB4B1F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E1359B8E32808C6E8ACE1945 /* Pods-MechtaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechtaTask.release.xcconfig"; path = "Target Support Files/Pods-MechtaTask/Pods-MechtaTask.release.xcconfig"; sourceTree = "<group>"; };
+		E88FFACDB89904B62FAABE7C /* Pods_MechtaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MechtaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D4F67D27D9C0BE00BB4B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EB2220F8BC1E062C0CAC36 /* Pods_MechtaTask.framework in Frameworks */,
+				A575A9D527DAAC4600AA4073 /* Atomics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59320018C62FB733C5B47768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33BF4A7511AB54CD7B086932 /* Pods-MechtaTask.debug.xcconfig */,
+				E1359B8E32808C6E8ACE1945 /* Pods-MechtaTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3E807E41A91A358E95E0479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E88FFACDB89904B62FAABE7C /* Pods_MechtaTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5D4F67727D9C0BE00BB4B1F = {
+			isa = PBXGroup;
+			children = (
+				A5D4F68227D9C0BE00BB4B1F /* MechtaTask */,
+				A5D4F68127D9C0BE00BB4B1F /* Products */,
+				59320018C62FB733C5B47768 /* Pods */,
+				A3E807E41A91A358E95E0479 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D4F68127D9C0BE00BB4B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D4F68027D9C0BE00BB4B1F /* MechtaTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D4F68227D9C0BE00BB4B1F /* MechtaTask */ = {
+			isa = PBXGroup;
+			children = (
+				A5D4F69B27DA4E2E00BB4B1F /* Tasks */,
+				A5D4F68327D9C0BE00BB4B1F /* AppDelegate.swift */,
+				A5D4F68527D9C0BE00BB4B1F /* SceneDelegate.swift */,
+				A5D4F68927D9C0BE00BB4B1F /* Main.storyboard */,
+				A5D4F68C27D9C0BE00BB4B1F /* Assets.xcassets */,
+				A5D4F68E27D9C0BE00BB4B1F /* LaunchScreen.storyboard */,
+				A5D4F69127D9C0BE00BB4B1F /* Info.plist */,
+			);
+			path = MechtaTask;
+			sourceTree = "<group>";
+		};
+		A5D4F69B27DA4E2E00BB4B1F /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				A5D4F69727D9C1FF00BB4B1F /* Model.swift */,
+				A5D4F69927D9C21400BB4B1F /* ViewModel.swift */,
+				A5D4F68727D9C0BE00BB4B1F /* ViewController.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D4F67F27D9C0BE00BB4B1F /* MechtaTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D4F69427D9C0BE00BB4B1F /* Build configuration list for PBXNativeTarget "MechtaTask" */;
+			buildPhases = (
+				7442B71A51612BB8FC5E7952 /* [CP] Check Pods Manifest.lock */,
+				A5D4F67C27D9C0BE00BB4B1F /* Sources */,
+				A5D4F67D27D9C0BE00BB4B1F /* Frameworks */,
+				A5D4F67E27D9C0BE00BB4B1F /* Resources */,
+				21E7AC5650A5FC8F2B0F2D09 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MechtaTask;
+			packageProductDependencies = (
+				A575A9D427DAAC4600AA4073 /* Atomics */,
+			);
+			productName = MechtaTask;
+			productReference = A5D4F68027D9C0BE00BB4B1F /* MechtaTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D4F67827D9C0BE00BB4B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A5D4F67F27D9C0BE00BB4B1F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A5D4F67B27D9C0BE00BB4B1F /* Build configuration list for PBXProject "MechtaTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D4F67727D9C0BE00BB4B1F;
+			packageReferences = (
+				A575A9D327DAAC4600AA4073 /* XCRemoteSwiftPackageReference "swift-atomics" */,
+			);
+			productRefGroup = A5D4F68127D9C0BE00BB4B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D4F67F27D9C0BE00BB4B1F /* MechtaTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D4F67E27D9C0BE00BB4B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D4F69027D9C0BE00BB4B1F /* LaunchScreen.storyboard in Resources */,
+				A5D4F68D27D9C0BE00BB4B1F /* Assets.xcassets in Resources */,
+				A5D4F68B27D9C0BE00BB4B1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21E7AC5650A5FC8F2B0F2D09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MechtaTask/Pods-MechtaTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MechtaTask/Pods-MechtaTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MechtaTask/Pods-MechtaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7442B71A51612BB8FC5E7952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MechtaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D4F67C27D9C0BE00BB4B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D4F69A27D9C21400BB4B1F /* ViewModel.swift in Sources */,
+				A5D4F68827D9C0BE00BB4B1F /* ViewController.swift in Sources */,
+				A5D4F68427D9C0BE00BB4B1F /* AppDelegate.swift in Sources */,
+				A5D4F68627D9C0BE00BB4B1F /* SceneDelegate.swift in Sources */,
+				A5D4F69827D9C20000BB4B1F /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5D4F68927D9C0BE00BB4B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D4F68A27D9C0BE00BB4B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D4F68E27D9C0BE00BB4B1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D4F68F27D9C0BE00BB4B1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D4F69227D9C0BE00BB4B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5D4F69327D9C0BE00BB4B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D4F69527D9C0BE00BB4B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BF4A7511AB54CD7B086932 /* Pods-MechtaTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G73TT8TCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MechtaTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lazzatios.MechtaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D4F69627D9C0BE00BB4B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1359B8E32808C6E8ACE1945 /* Pods-MechtaTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G73TT8TCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MechtaTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lazzatios.MechtaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D4F67B27D9C0BE00BB4B1F /* Build configuration list for PBXProject "MechtaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D4F69227D9C0BE00BB4B1F /* Debug */,
+				A5D4F69327D9C0BE00BB4B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D4F69427D9C0BE00BB4B1F /* Build configuration list for PBXNativeTarget "MechtaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D4F69527D9C0BE00BB4B1F /* Debug */,
+				A5D4F69627D9C0BE00BB4B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A575A9D327DAAC4600AA4073 /* XCRemoteSwiftPackageReference "swift-atomics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-atomics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A575A9D427DAAC4600AA4073 /* Atomics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A575A9D327DAAC4600AA4073 /* XCRemoteSwiftPackageReference "swift-atomics" */;
+			productName = Atomics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A5D4F67827D9C0BE00BB4B1F /* Project object */;
+}
